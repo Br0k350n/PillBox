@@ -4,7 +4,7 @@ body {
     display: flex;
     align-items: center;
     flex-direction: column;
-    max-width: 1920px;
+    max-width: 100vw;
     font-family: 'Roboto', sans-serif;
     background-color: #eaebeb;
     margin: auto;
@@ -135,12 +135,9 @@ a {
   }
   .location__container {
     display: flex;
-    justify-content: space-between;
-    padding: 15px;
-  }
-  .locationImg {
-    width: 50%;
-    height: 25%;
+    justify-content: space-evenly;
+    padding: 25px 0;
+    width: 100%;
   }
   .location {
     display: flex;
@@ -246,6 +243,12 @@ a {
     0% {background-color: rgb(162, 209, 255);color: black}
     50% {background-color: #0075f2; color: white;}
     100% {background-color: rgb(162, 209, 255); color: black}
+  }
+  .logo_link {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    height: fit-content;
   }
 /* .poll {
     
