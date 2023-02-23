@@ -257,6 +257,9 @@ a {
     flex-direction: row;
     align-items: center;
   }
+  .finePrint {
+    font-size: 10px;
+  }
 /* .poll {
     
 } */
